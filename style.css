@@ -1,0 +1,95 @@
+/* 主色：#212529 */
+/* 淡的 ：#e9e9ea */
+/* fuse:#343a40 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Rubik',sans-serif;
+    font-weight: 400;
+}
+.section-hero{
+    background-color: #e9e9ea;
+    padding: 9.6rem 0;
+}
+.hero{
+    max-width: 130rem;
+    /* 130rem */
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 9.6rem;
+    
+}
+.heading-primary{
+    font-size: 6.1rem;
+    font-weight: 700;
+    color: #343a40;
+    line-height: 1.1;
+    letter-spacing: -0.1px;
+    margin-bottom: 3.2rem;
+}
+.hero-description{
+    font-size:2rem ;
+    line-height: 1.5;
+    margin-bottom: 4.8rem;
+}
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+    font-weight: 600;
+
+}
+.btn-full:link,
+.btn-full:visited{
+    background-color:#212529  ;
+    color: white;
+}
+.btn-full:hover,
+.btn-full:active{
+    background-color:#4d5154  ;
+    
+}
+.btn-outline:link,
+.btn-outline:visited{
+    background-color:white ;
+    color: #343a40;
+}
+.btn-outline:hover,
+.btn-outline:active{
+    background-color:#868e96 ;
+ 
+}
+
+.margin-right-sm{
+    margin-right: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.hero-img{
+    width: 100%;
+    height: auto;
+    
+    
+}
